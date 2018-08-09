@@ -52,7 +52,7 @@
             this.contentPanel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.contentPanel.Location = new System.Drawing.Point(183, 10);
             this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(976, 631);
+            this.contentPanel.Size = new System.Drawing.Size(976, 690);
             this.contentPanel.TabIndex = 24;
             // 
             // panel3
@@ -70,7 +70,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 10);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(183, 631);
+            this.panel3.Size = new System.Drawing.Size(183, 690);
             this.panel3.TabIndex = 22;
             // 
             // reportsButton
@@ -250,7 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1159, 641);
+            this.ClientSize = new System.Drawing.Size(1159, 700);
             this.Controls.Add(this.contentPanel);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);

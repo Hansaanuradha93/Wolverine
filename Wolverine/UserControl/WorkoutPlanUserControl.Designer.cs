@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.workoutPlanExercisesText = new System.Windows.Forms.RichTextBox();
             this.addWorkoutPlanButton = new System.Windows.Forms.Button();
@@ -36,8 +37,6 @@
             this.workoutPlanInstructorIdText = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.workoutPlanMemberIdText = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.workoutPlanIdText = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,11 +50,24 @@
             this.panel1.Controls.Add(this.workoutPlanInstructorIdText);
             this.panel1.Controls.Add(this.workoutPlanMemberIdText);
             this.panel1.Controls.Add(this.workoutPlanIdText);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(575, 631);
+            this.panel1.Size = new System.Drawing.Size(976, 700);
             this.panel1.TabIndex = 0;
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.Location = new System.Drawing.Point(322, 29);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(129, 19);
+            this.materialLabel3.TabIndex = 99;
+            this.materialLabel3.Text = "Add Workout Plan";
             // 
             // materialLabel1
             // 
@@ -63,7 +75,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(108, 250);
+            this.materialLabel1.Location = new System.Drawing.Point(235, 250);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(82, 19);
@@ -74,7 +86,7 @@
             // 
             this.workoutPlanExercisesText.BackColor = System.Drawing.SystemColors.Control;
             this.workoutPlanExercisesText.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workoutPlanExercisesText.Location = new System.Drawing.Point(112, 286);
+            this.workoutPlanExercisesText.Location = new System.Drawing.Point(239, 286);
             this.workoutPlanExercisesText.Name = "workoutPlanExercisesText";
             this.workoutPlanExercisesText.Size = new System.Drawing.Size(348, 135);
             this.workoutPlanExercisesText.TabIndex = 97;
@@ -87,7 +99,7 @@
             this.addWorkoutPlanButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addWorkoutPlanButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addWorkoutPlanButton.ForeColor = System.Drawing.Color.White;
-            this.addWorkoutPlanButton.Location = new System.Drawing.Point(24, 496);
+            this.addWorkoutPlanButton.Location = new System.Drawing.Point(151, 496);
             this.addWorkoutPlanButton.Name = "addWorkoutPlanButton";
             this.addWorkoutPlanButton.Size = new System.Drawing.Size(533, 35);
             this.addWorkoutPlanButton.TabIndex = 88;
@@ -101,7 +113,7 @@
             this.workoutPlansNotesText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.workoutPlansNotesText.ForeColor = System.Drawing.Color.Transparent;
             this.workoutPlansNotesText.Hint = "Notes";
-            this.workoutPlansNotesText.Location = new System.Drawing.Point(112, 445);
+            this.workoutPlansNotesText.Location = new System.Drawing.Point(239, 445);
             this.workoutPlansNotesText.MouseState = MaterialSkin.MouseState.HOVER;
             this.workoutPlansNotesText.Name = "workoutPlansNotesText";
             this.workoutPlansNotesText.PasswordChar = '\0';
@@ -118,7 +130,7 @@
             this.workoutPlanInstructorIdText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.workoutPlanInstructorIdText.ForeColor = System.Drawing.Color.Transparent;
             this.workoutPlanInstructorIdText.Hint = "Instructor ID";
-            this.workoutPlanInstructorIdText.Location = new System.Drawing.Point(112, 209);
+            this.workoutPlanInstructorIdText.Location = new System.Drawing.Point(239, 209);
             this.workoutPlanInstructorIdText.MouseState = MaterialSkin.MouseState.HOVER;
             this.workoutPlanInstructorIdText.Name = "workoutPlanInstructorIdText";
             this.workoutPlanInstructorIdText.PasswordChar = '\0';
@@ -135,7 +147,7 @@
             this.workoutPlanMemberIdText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.workoutPlanMemberIdText.ForeColor = System.Drawing.Color.Transparent;
             this.workoutPlanMemberIdText.Hint = "Member ID";
-            this.workoutPlanMemberIdText.Location = new System.Drawing.Point(112, 159);
+            this.workoutPlanMemberIdText.Location = new System.Drawing.Point(239, 159);
             this.workoutPlanMemberIdText.MouseState = MaterialSkin.MouseState.HOVER;
             this.workoutPlanMemberIdText.Name = "workoutPlanMemberIdText";
             this.workoutPlanMemberIdText.PasswordChar = '\0';
@@ -152,7 +164,7 @@
             this.workoutPlanIdText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.workoutPlanIdText.ForeColor = System.Drawing.Color.Transparent;
             this.workoutPlanIdText.Hint = "Workout Plan ID";
-            this.workoutPlanIdText.Location = new System.Drawing.Point(112, 102);
+            this.workoutPlanIdText.Location = new System.Drawing.Point(239, 102);
             this.workoutPlanIdText.MouseState = MaterialSkin.MouseState.HOVER;
             this.workoutPlanIdText.Name = "workoutPlanIdText";
             this.workoutPlanIdText.PasswordChar = '\0';
@@ -163,35 +175,13 @@
             this.workoutPlanIdText.TabIndex = 64;
             this.workoutPlanIdText.UseSystemPasswordChar = false;
             // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(575, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(401, 631);
-            this.panel2.TabIndex = 1;
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(195, 29);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(175, 23);
-            this.materialLabel3.TabIndex = 99;
-            this.materialLabel3.Text = "Add Workout Plan";
-            // 
             // WorkoutPlanUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "WorkoutPlanUserControl";
-            this.Size = new System.Drawing.Size(976, 631);
+            this.Size = new System.Drawing.Size(976, 700);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -201,7 +191,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
         private MaterialSkin.Controls.MaterialSingleLineTextField workoutPlansNotesText;
         private MaterialSkin.Controls.MaterialSingleLineTextField workoutPlanInstructorIdText;
         private MaterialSkin.Controls.MaterialSingleLineTextField workoutPlanMemberIdText;

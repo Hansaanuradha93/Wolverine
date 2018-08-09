@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.reservationAmountText = new MaterialSkin.Controls.MaterialLabel();
             this.addReservationButton = new System.Windows.Forms.Button();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -39,14 +40,13 @@
             this.reservationDataPicker = new System.Windows.Forms.DateTimePicker();
             this.reservationIdText = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.notApproveRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.approvedRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.approveInstructorId = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.approveReservationText = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.approveReservationButton = new System.Windows.Forms.Button();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -67,8 +67,21 @@
             this.panel1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(575, 631);
+            this.panel1.Size = new System.Drawing.Size(463, 700);
             this.panel1.TabIndex = 0;
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(152, 24);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(118, 19);
+            this.materialLabel2.TabIndex = 98;
+            this.materialLabel2.Text = "Add Reservation";
             // 
             // reservationAmountText
             // 
@@ -76,7 +89,7 @@
             this.reservationAmountText.Depth = 0;
             this.reservationAmountText.Font = new System.Drawing.Font("Roboto", 11F);
             this.reservationAmountText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.reservationAmountText.Location = new System.Drawing.Point(101, 343);
+            this.reservationAmountText.Location = new System.Drawing.Point(58, 343);
             this.reservationAmountText.MouseState = MaterialSkin.MouseState.HOVER;
             this.reservationAmountText.Name = "reservationAmountText";
             this.reservationAmountText.Size = new System.Drawing.Size(74, 19);
@@ -90,9 +103,9 @@
             this.addReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addReservationButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addReservationButton.ForeColor = System.Drawing.Color.White;
-            this.addReservationButton.Location = new System.Drawing.Point(36, 393);
+            this.addReservationButton.Location = new System.Drawing.Point(8, 393);
             this.addReservationButton.Name = "addReservationButton";
-            this.addReservationButton.Size = new System.Drawing.Size(533, 35);
+            this.addReservationButton.Size = new System.Drawing.Size(442, 35);
             this.addReservationButton.TabIndex = 94;
             this.addReservationButton.Text = "Add Reservation";
             this.addReservationButton.UseVisualStyleBackColor = false;
@@ -102,12 +115,12 @@
             // 
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(101, 238);
+            this.materialLabel4.Location = new System.Drawing.Point(58, 238);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(76, 20);
+            this.materialLabel4.Size = new System.Drawing.Size(79, 19);
             this.materialLabel4.TabIndex = 93;
             this.materialLabel4.Text = "Start Time";
             // 
@@ -115,12 +128,12 @@
             // 
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(101, 196);
+            this.materialLabel3.Location = new System.Drawing.Point(58, 196);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(45, 20);
+            this.materialLabel3.Size = new System.Drawing.Size(40, 19);
             this.materialLabel3.TabIndex = 92;
             this.materialLabel3.Text = "Date";
             // 
@@ -130,7 +143,7 @@
             this.reservationMemberIdText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reservationMemberIdText.ForeColor = System.Drawing.Color.Transparent;
             this.reservationMemberIdText.Hint = "Member ID";
-            this.reservationMemberIdText.Location = new System.Drawing.Point(105, 140);
+            this.reservationMemberIdText.Location = new System.Drawing.Point(62, 140);
             this.reservationMemberIdText.MouseState = MaterialSkin.MouseState.HOVER;
             this.reservationMemberIdText.Name = "reservationMemberIdText";
             this.reservationMemberIdText.PasswordChar = '\0';
@@ -147,7 +160,7 @@
             this.reservationDurationText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reservationDurationText.ForeColor = System.Drawing.Color.Transparent;
             this.reservationDurationText.Hint = "Duration";
-            this.reservationDurationText.Location = new System.Drawing.Point(105, 295);
+            this.reservationDurationText.Location = new System.Drawing.Point(62, 295);
             this.reservationDurationText.MouseState = MaterialSkin.MouseState.HOVER;
             this.reservationDurationText.Name = "reservationDurationText";
             this.reservationDurationText.PasswordChar = '\0';
@@ -163,7 +176,7 @@
             this.reservationStartTimePicker.CalendarMonthBackground = System.Drawing.SystemColors.Control;
             this.reservationStartTimePicker.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reservationStartTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.reservationStartTimePicker.Location = new System.Drawing.Point(188, 239);
+            this.reservationStartTimePicker.Location = new System.Drawing.Point(145, 239);
             this.reservationStartTimePicker.Name = "reservationStartTimePicker";
             this.reservationStartTimePicker.Size = new System.Drawing.Size(200, 21);
             this.reservationStartTimePicker.TabIndex = 84;
@@ -173,7 +186,7 @@
             this.reservationDataPicker.CalendarFont = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reservationDataPicker.CalendarMonthBackground = System.Drawing.SystemColors.Control;
             this.reservationDataPicker.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reservationDataPicker.Location = new System.Drawing.Point(187, 196);
+            this.reservationDataPicker.Location = new System.Drawing.Point(144, 196);
             this.reservationDataPicker.Name = "reservationDataPicker";
             this.reservationDataPicker.Size = new System.Drawing.Size(200, 21);
             this.reservationDataPicker.TabIndex = 83;
@@ -184,7 +197,7 @@
             this.reservationIdText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reservationIdText.ForeColor = System.Drawing.Color.Transparent;
             this.reservationIdText.Hint = "Reservation ID";
-            this.reservationIdText.Location = new System.Drawing.Point(105, 90);
+            this.reservationIdText.Location = new System.Drawing.Point(62, 90);
             this.reservationIdText.MouseState = MaterialSkin.MouseState.HOVER;
             this.reservationIdText.Name = "reservationIdText";
             this.reservationIdText.PasswordChar = '\0';
@@ -206,18 +219,31 @@
             this.panel2.Controls.Add(this.approveReservationText);
             this.panel2.Controls.Add(this.approveReservationButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(575, 0);
+            this.panel2.Location = new System.Drawing.Point(463, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(401, 631);
+            this.panel2.Size = new System.Drawing.Size(513, 700);
             this.panel2.TabIndex = 1;
+            // 
+            // materialLabel5
+            // 
+            this.materialLabel5.AutoSize = true;
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel5.Location = new System.Drawing.Point(96, 24);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(147, 19);
+            this.materialLabel5.TabIndex = 99;
+            this.materialLabel5.Text = "Approve Reservation";
             // 
             // notApproveRadioButton
             // 
             this.notApproveRadioButton.AutoSize = true;
             this.notApproveRadioButton.Depth = 0;
-            this.notApproveRadioButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notApproveRadioButton.Font = new System.Drawing.Font("Roboto", 10F);
             this.notApproveRadioButton.ForeColor = System.Drawing.Color.White;
-            this.notApproveRadioButton.Location = new System.Drawing.Point(102, 231);
+            this.notApproveRadioButton.Location = new System.Drawing.Point(90, 231);
             this.notApproveRadioButton.Margin = new System.Windows.Forms.Padding(0);
             this.notApproveRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
             this.notApproveRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
@@ -233,9 +259,9 @@
             // 
             this.approvedRadioButton.AutoSize = true;
             this.approvedRadioButton.Depth = 0;
-            this.approvedRadioButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.approvedRadioButton.Font = new System.Drawing.Font("Roboto", 10F);
             this.approvedRadioButton.ForeColor = System.Drawing.Color.White;
-            this.approvedRadioButton.Location = new System.Drawing.Point(101, 197);
+            this.approvedRadioButton.Location = new System.Drawing.Point(89, 197);
             this.approvedRadioButton.Margin = new System.Windows.Forms.Padding(0);
             this.approvedRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
             this.approvedRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
@@ -251,12 +277,12 @@
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(31, 199);
+            this.materialLabel1.Location = new System.Drawing.Point(19, 199);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(78, 20);
+            this.materialLabel1.Size = new System.Drawing.Size(68, 19);
             this.materialLabel1.TabIndex = 85;
             this.materialLabel1.Text = "Approvel";
             // 
@@ -266,7 +292,7 @@
             this.approveInstructorId.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.approveInstructorId.ForeColor = System.Drawing.Color.Transparent;
             this.approveInstructorId.Hint = "Instructor ID";
-            this.approveInstructorId.Location = new System.Drawing.Point(31, 141);
+            this.approveInstructorId.Location = new System.Drawing.Point(19, 141);
             this.approveInstructorId.MouseState = MaterialSkin.MouseState.HOVER;
             this.approveInstructorId.Name = "approveInstructorId";
             this.approveInstructorId.PasswordChar = '\0';
@@ -283,7 +309,7 @@
             this.approveReservationText.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.approveReservationText.ForeColor = System.Drawing.Color.Transparent;
             this.approveReservationText.Hint = "Reservation ID";
-            this.approveReservationText.Location = new System.Drawing.Point(31, 91);
+            this.approveReservationText.Location = new System.Drawing.Point(19, 91);
             this.approveReservationText.MouseState = MaterialSkin.MouseState.HOVER;
             this.approveReservationText.Name = "approveReservationText";
             this.approveReservationText.PasswordChar = '\0';
@@ -301,39 +327,13 @@
             this.approveReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.approveReservationButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.approveReservationButton.ForeColor = System.Drawing.Color.White;
-            this.approveReservationButton.Location = new System.Drawing.Point(20, 393);
+            this.approveReservationButton.Location = new System.Drawing.Point(6, 393);
             this.approveReservationButton.Name = "approveReservationButton";
-            this.approveReservationButton.Size = new System.Drawing.Size(363, 35);
+            this.approveReservationButton.Size = new System.Drawing.Size(358, 35);
             this.approveReservationButton.TabIndex = 42;
             this.approveReservationButton.Text = "Approve";
             this.approveReservationButton.UseVisualStyleBackColor = false;
             this.approveReservationButton.Click += new System.EventHandler(this.approveReservationButton_Click);
-            // 
-            // materialLabel2
-            // 
-            this.materialLabel2.AutoSize = true;
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(195, 24);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(162, 23);
-            this.materialLabel2.TabIndex = 98;
-            this.materialLabel2.Text = "Add Reservation";
-            // 
-            // materialLabel5
-            // 
-            this.materialLabel5.AutoSize = true;
-            this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel5.Location = new System.Drawing.Point(131, 24);
-            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(203, 23);
-            this.materialLabel5.TabIndex = 99;
-            this.materialLabel5.Text = "Approve Reservation";
             // 
             // ReservationUserControl
             // 
@@ -342,7 +342,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "ReservationUserControl";
-            this.Size = new System.Drawing.Size(976, 631);
+            this.Size = new System.Drawing.Size(976, 700);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

@@ -314,7 +314,7 @@
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ReportsUserControl";
-            this.Size = new System.Drawing.Size(976, 631);
+            this.Size = new System.Drawing.Size(976, 700);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
