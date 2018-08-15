@@ -138,3 +138,4 @@ C:\Users\hansa.wickramanayake\Downloads\Wolverine-master\Wolverine-master\Wolver
 C:\Users\hansa.wickramanayake\Downloads\Wolverine-master\Wolverine-master\Wolverine\obj\Debug\Wolverine.csproj.GenerateResource.cache
 C:\Users\hansa.wickramanayake\Downloads\Wolverine-master\Wolverine-master\Wolverine\obj\Debug\Wolverine.csproj.CoreCompileInputs.cache
 C:\Users\hansa.wickramanayake\Downloads\Wolverine-master\Wolverine-master\Wolverine\obj\Debug\Wolverine.csproj.CopyComplete
+C:\Users\hansa.wickramanayake\Downloads\Wolverine-master\Wolverine-master\Wolverine\obj\Debug\Wolverine.csprojAssemblyReference.cache
